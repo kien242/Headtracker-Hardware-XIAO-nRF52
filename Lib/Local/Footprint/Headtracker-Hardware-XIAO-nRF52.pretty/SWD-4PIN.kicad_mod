@@ -1,0 +1,15 @@
+(footprint "SWD-4PIN" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 21e242a4-0629-4e59-8bf3-63c91d8b85a3)
+  )
+  (fp_text value "SWD-4PIN" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 88ee181f-7d0e-4c9f-93b9-157ab88c764a)
+  )
+  (pad "1" connect roundrect (at -3.81 0) (size 1.524 1.524) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp 7f2305c7-2c2a-497a-8d4e-05ae10e3c2d8))
+  (pad "2" connect roundrect (at -1.27 0) (size 1.524 1.524) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp 407e2921-a5bf-49cd-abeb-10b280500987))
+  (pad "3" connect roundrect (at 1.27 0) (size 1.524 1.524) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp cd61de06-dfbc-4da8-bdc2-e71cb0220f34))
+  (pad "4" connect roundrect (at 3.81 0) (size 1.524 1.524) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp 1973c0a0-a486-4a74-ba9f-9af135c33bdb))
+)
